@@ -4,6 +4,7 @@
   padding: 0;
   font-family: 'Raleway', sans-serif;
 }
+/* ESTILOS HEADER */
 .header {
   height: 100vh;
   background-image: url('./images/foto-slider@2x.jpg');
@@ -49,7 +50,6 @@
   font-size: 20px;
   padding: 5px;
   cursor: pointer;
-  text-transform: uppercase;
 }
 .nav-list-item:hover {
   border-bottom: #9bd189 solid 3px;
@@ -57,4 +57,59 @@
 .nav-item-item-link {
   text-decoration-line: none;
   color: white;
+}
+/* ESTILOS ABOUT ME */
+.aboutMe {
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+.aboutMe-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutMe-title {
+  text-align: center;
+  padding-top: 110px;
+  font-weight: normal;
+  font-size: 30px;
+}
+.linea {
+  width: 100px;
+  height: 5px;
+  background-color: #9bd189;
+  margin-top: 10px;
+}
+.aboutMe-content {
+  display: flex;
+  justify-content: center;
+  margin: 60px 135px;
+}
+.aboutMe-textContainer {
+  width: 770px;
+  margin-left: 30px;
+  font-size: 14px;
+  line-height: 26px;
+}
+.aboutMe-text {
+  margin-bottom: 16px;
+  text-align: justify;
+}
+.aboutMe-button {
+  color: white;
+  background-color: #9bd189;
+  width: 180px;
+  height: 50px;
+  padding: 16px 25px;
+
+  cursor: pointer;
+  margin-left: 125px;
+}
+
+/* ESTILOS GENÉRICOS */
+.bold {
+  font-weight: bold;
+}
+.uppercase {
+  text-transform: uppercase;
 }
