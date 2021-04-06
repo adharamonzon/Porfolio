@@ -5,19 +5,20 @@
   font-family: 'Raleway', sans-serif;
 }
 .header {
-  width: 100vw;
   height: 100vh;
   background-image: url('./images/foto-slider@2x.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
-.header-titleContainer {
-  position: absolute;
-  top: 35%;
-  left: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+}
+.header-titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
 }
 .header-logo {
   width: 238px;
@@ -28,7 +29,7 @@
   font-weight: normal;
   color: white;
   margin-top: 28px;
-  letter-spacing: normal;
+  letter-spacing: 9px;
 }
 .header-subtitle {
   font-size: 30px;
@@ -39,14 +40,21 @@
   letter-spacing: 17.9px;
 }
 .nav {
-  position: absolute;
-  bottom: 60px;
-  left: 30%;
-  width: 50%;
+  width: 60%;
 }
 .nav-list {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.nav-list-item:hover {
+  border-bottom: #9bd189 solid 3px;
+}
+.nav-item-item-link {
+  text-decoration-line: none;
   color: white;
 }
