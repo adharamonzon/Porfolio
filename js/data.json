@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "Buscador de series",
+    "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
+        "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
+
+    "description": "Tu buscador de series, es una web responsive donde poder buscar todo tipo de series y marcar tus favoritas!",
+    "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
+    "codeUrl": "https://github.com/adharamonzon/buscador-de-series",
+    "web": "https://adharamonzon.github.io/buscador-de-series/"
+  },
+  {
+    "id": 2,
+    "name": "Front Runners",
+        "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
+
+    "description": "Front-Runners web donde nos presentamos como programadoras front-end junior y aplicamos nuestros conocimientos en html, css, sass, grid, git, etc.",
+    "languajes": ["HTML5", "CSS3", "Sass"],
+    "codeUrl": "https://github.com/adharamonzon/Front-Runners",
+    "web": "https://adharamonzon.github.io/Front-Runners/"
+  },
+  {
+    "id": 3,
+    "name": "Awesome Cards",
+        "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
+
+    "description": "awesome-cards: An interactive web where you can create your own personal card and share it in your social media.",
+    "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
+    "codeUrl": "https://github.com/adharamonzon/awesome-cards",
+    "web": "https://adharamonzon.github.io/Front-Runners/"
+  },
+  {
+    "id": 4,
+    "name": "Psicología Indra",
+        "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
+
+    "description": "Web de información del gabinete de psicología Indra. Información de contacto, trayectoria profesional, tipos de terapia, etc.",
+    "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
+    "codeUrl": "https://github.com/adharamonzon/psicologia-indra",
+    "web": "https://adharamonzon.github.io/psicologia-indra/"
+  },
+  {
+    "id": 5,
+    "name": "La tiendina",
+        "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
+
+    "description": "E-commerce, prototipo de una tienda online. Desarrollada la funcionalidad para comprar en la web y modificar la compra en el carro, también disponible con drag and drop",
+    "languajes": ["JavaScript", "HTML5", "CSS3"],
+    "codeUrl": "https://github.com/adharamonzon/showcase",
+    "web": "https://adharamonzon.github.io/showcase/"
+  },
+  {
+    "id": 6,
+    "name": "La tiendina",
+        "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
+
+    "description": "E-commerce, prototipo de una tienda online. Desarrollada la funcionalidad para comprar en la web y modificar la compra en el carro, también disponible con drag and drop",
+    "languajes": ["JavaScript", "HTML5", "CSS3"],
+    "codeUrl": "https://github.com/adharamonzon/showcase",
+    "web": "https://adharamonzon.github.io/showcase/"
+  }
+]

@@ -18,15 +18,15 @@
       </div>
       <nav class="nav">
         <ul class="nav-list uppercase">
-          <li class="nav-list-item"><a class="nav-item-item-link" href="">About Me</a></li>
-          <li class="nav-list-item"><a class="nav-item-item-link" href="">Works</a></li>
-          <li class="nav-list-item"><a class="nav-item-item-link" href="">Contact Me</a></li>
+          <li class="nav-list-item"><a class="nav-item-item-link" href="#aboutMe">About Me</a></li>
+          <li class="nav-list-item"><a class="nav-item-item-link" href="#works">Works</a></li>
+          <li class="nav-list-item"><a class="nav-item-item-link" href="#followMe">Contact Me</a></li>
           <li class="nav-list-item"><a class="nav-item-item-link" href="">Follow Me</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="aboutMe">
+      <section class="aboutMe" id="aboutMe">
         <div class="aboutMe-title-section">
           <h2 class="aboutMe-title uppercase">About Me</h2>
           <div class="linea"></div>
@@ -39,10 +39,34 @@
             <p class="aboutMe-text">Cómo terapeuta ocupacional desarrollé una gran capacidad de <span class="bold">trabajo en equipo, creatividad</span> a la hora de <span class="bold">resolver problemas</span> y a disfrutar como propios los retos superados junto a mis pacientes.</p>
             <p class="aboutMe-text">La inquietud por aprender es una constante, he comenzado una nueva etapa como desarrolladora Front-end con mucha ilusión y ganas de aprender. Este reto está lleno de creatividad, pensamiento lógico y resolución de problemas y tras estos meses aprendiendo, me he dado cuenta que el camino de la programación es el mio. Me encanta este nuevo reto y poder fusionarlo con mis experiencias anteriores.</p>
             <p class="aboutMe-text" style="margin-bottom: 30px">En mi tiempo libre me apasiona la música, la naturaleza y los deportes en equipo, siempre es interesante empezar un deporte nuevo, conocer nuevos lugares o aprender a tocar un nuevo instrumento.</p>
-            <a class="aboutMe-button uppercase">More about me</a>
+            <div class="btn-container">
+              <a class="aboutMe-button uppercase">More about me</a>
+            </div>
           </div>
         </section>
       </section>
+      <section class="works" id="works">
+        <div class="works-title-section">
+          <h2 class="works-title uppercase">Works</h2>
+          <div class="linea"></div>
+        </div>
+        <ul class="works-list"></ul>
+        <div class="btn-container">
+          <a class="works-button uppercase">Load more</a>
+        </div>
+      </section>
+      <section class="followMe" id="followMe">
+        <div class="followMe-title-section">
+          <h2 class="followMe-title uppercase">Follow me</h2>
+          <div class="linea"></div>
+        </div>
+        <div class="followMe-rrss">
+          <a href="https://www.linkedin.com/in/adharamonzonvarillas/" target="_blank"></a><img class="followMe-link" src="./css/icons/linkedin.svg" alt="Linkedin de Adhara" />
+          <a href="https://github.com/adharamonzon" target="_blank"><img class="followMe-link" src="./css/icons/github.svg" alt="GitHub de Adhara" /></a>
+          <a href="https://twitter.com/MonzonAdhara"><img class="followMe-link" src="./css/icons/twitter.svg" alt="Twitter de Adhara" /></a>
+        </div>
+      </section>
     </main>
+    <script src="./js/main.js"></script>
   </body>
 </html>

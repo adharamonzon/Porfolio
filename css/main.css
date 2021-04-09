@@ -60,7 +60,7 @@
 }
 /* ESTILOS ABOUT ME */
 .aboutMe {
-  height: 100vh;
+  height: 110vh;
   background-color: #f7f7f7;
 }
 .aboutMe-title-section {
@@ -70,16 +70,11 @@
 }
 .aboutMe-title {
   text-align: center;
-  padding-top: 110px;
+  padding-top: 90px;
   font-weight: normal;
   font-size: 30px;
 }
-.linea {
-  width: 100px;
-  height: 5px;
-  background-color: #9bd189;
-  margin-top: 10px;
-}
+
 .aboutMe-content {
   display: flex;
   justify-content: center;
@@ -102,13 +97,99 @@
   height: 50px;
   padding: 16px 25px;
   cursor: pointer;
-  margin-left: 125px;
 }
-
+/* ESTILOS WORKS */
+.works {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.works-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.works-title {
+  text-align: center;
+  padding-top: 90px;
+  font-weight: normal;
+  font-size: 30px;
+}
+.works-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 280px);
+  justify-content: center;
+  margin: 16px 0px;
+}
+.work-list-item {
+  background-color: #9bd189;
+  color: white;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.work-list-item-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.work-list-item-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  width: 85%;
+  margin-bottom: 15px;
+}
+.work-list-item-btn {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.work-list-item-btn:hover {
+  font-size: 18px;
+}
+.works-button {
+  color: white;
+  background-color: #9bd189;
+  width: 180px;
+  height: 50px;
+  padding: 16px 25px;
+  cursor: pointer;
+}
+/* ESTILOS FOLLOW ME */
+.followMe {
+  background-color: #f7f7f7;
+}
+.followMe-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.followMe-title {
+  text-align: center;
+  padding-top: 90px;
+  font-weight: normal;
+  font-size: 30px;
+}
 /* ESTILOS GENÉRICOS */
 .bold {
   font-weight: bold;
 }
 .uppercase {
   text-transform: uppercase;
+}
+.linea {
+  width: 100px;
+  height: 5px;
+  background-color: #9bd189;
+  margin-top: 10px;
+}
+.btn-container {
+  margin-top: 40px;
+  text-align: center;
 }
