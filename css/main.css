@@ -19,26 +19,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 130px;
+  margin-top: 8.12rem;
 }
 .header-logo {
-  width: 238px;
-  height: 150px;
+  width: 18.87rem;
+  height: 9.37rem;
 }
 .header-title {
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: normal;
   color: white;
-  margin-top: 28px;
-  letter-spacing: 9px;
+  margin-top: 1.75rem;
+  letter-spacing: 0.56rem;
 }
 .header-subtitle {
-  font-size: 30px;
+  font-size: 1.87rem;
   font-weight: normal;
   color: white;
-  margin-top: 28px;
+  margin-top: 1.75rem;
   line-height: 1.07;
-  letter-spacing: 17.9px;
+  letter-spacing: 1.125rem;
 }
 .nav {
   width: 60%;
@@ -47,8 +47,8 @@
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  font-size: 20px;
-  padding: 5px;
+  font-size: 1.25rem;
+  padding: 0.31rem;
   cursor: pointer;
 }
 .nav-list-item:hover {
@@ -70,37 +70,37 @@
 }
 .aboutMe-title {
   text-align: center;
-  padding-top: 90px;
+  padding-top: 5.62rem;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.87rem;
 }
 
 .aboutMe-content {
   display: flex;
   justify-content: center;
-  margin: 60px 135px;
+  margin: 3.75rem 8.43rem;
 }
 .aboutMe-textContainer {
-  width: 770px;
-  margin-left: 30px;
-  font-size: 14px;
-  line-height: 26px;
+  width: 48.12rem;
+  margin-left: 1.87rem;
+  font-size: 0.87rem;
+  line-height: 1.62rem;
 }
 .aboutMe-text {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   text-align: justify;
 }
 .aboutMe-button {
   color: white;
   background-color: #9bd189;
-  width: 180px;
-  height: 50px;
-  padding: 16px 25px;
+  width: 11.25;
+  height: 3.12rem;
+  padding: 1rem 1.56rem;
   cursor: pointer;
 }
 /* ESTILOS WORKS */
 .works {
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,59 +112,59 @@
 }
 .works-title {
   text-align: center;
-  padding-top: 90px;
+  padding-top: 5.62rem;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.87rem;
 }
 .works-list {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(2, 280px);
+  grid-template-columns: repeat(3, 18.75rem);
+  grid-template-rows: repeat(2, 17.25rem);
   justify-content: center;
-  margin: 16px 0px;
+  margin: 1rem 0px;
 }
 .work-list-item {
   background-color: #9bd189;
   color: white;
-  border: solid 1px black;
+  border: solid 0.06rem black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .work-list-item-name {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 0.93rem;
 }
 .work-list-item-subtitle {
-  font-size: 14px;
+  font-size: 0.87rem;
   font-weight: 500;
   width: 85%;
-  margin-bottom: 15px;
+  margin-bottom: 0.93rem;
 }
 .work-list-item-btn {
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
 }
 .work-list-item-btn:hover {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .works-button {
   color: white;
   background-color: #9bd189;
-  width: 180px;
-  height: 50px;
-  padding: 16px 25px;
+  width: 11.25;
+  height: 3.12rem;
+  padding: 1rem 1.56rem;
   cursor: pointer;
 }
 /* ESTILOS FOLLOW ME */
 .followMe {
   background-color: #f7f7f7;
-  padding-bottom: 150px;
+  padding-bottom: 9.37rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -177,27 +177,27 @@
 }
 .followMe-title {
   text-align: center;
-  padding-top: 90px;
+  padding-top: 5.62rem;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.87rem;
 }
 .followMe-rrss {
   width: 40%;
-  margin-top: 90px;
+  margin-top: 5.62rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .fab {
-  font-size: 23px;
+  font-size: 1.43rem;
   color: black;
   align-self: center;
 }
 .icon-container:hover {
   display: flex;
-  width: 56px;
-  height: 56px;
-  border: solid 1px #9bd189;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: solid 0.06rem #9bd189;
   border-radius: 56%;
   justify-content: center;
   align-items: center;
@@ -206,8 +206,8 @@
 .icon-link:hover {
   border-radius: 50%;
   background: #9bd189;
-  width: 45px;
-  height: 45px;
+  width: 2.81rem;
+  height: 2.81rem;
   display: flex;
   justify-content: center;
   color: white;
@@ -230,44 +230,44 @@
 }
 .contact-title {
   text-align: center;
-  padding-top: 90px;
+  padding-top: 5.62rem;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.87rem;
 }
 .contact-subtitle {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 .form-btn {
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
 }
 /* FORM */
 .form {
-  margin-top: 55px;
+  margin-top: 3.43rem;
 }
 .form-input {
-  width: 580px;
-  height: 50px;
-  margin-bottom: 16px;
-  border: 1px solid #9bd189;
+  width: 36.25rem;
+  height: 3.12rem;
+  margin-bottom: 1rem;
+  border: 0.06rem solid #9bd189;
 }
 .form-textarea {
-  width: 580px;
-  height: 140px;
-  border: 1px solid #9bd189;
+  width: 36.25rem;
+  height: 8.75rem;
+  border: 0.06rem solid #9bd189;
   display: block;
 }
 .form-submitsection {
   display: flex;
   justify-content: space-between;
-  width: 580px;
-  margin-top: 30px;
-  margin-bottom: 100px;
+  width: 36.25rem;
+  margin-top: 1.87rem;
+  margin-bottom: 6.25rem;
 }
 .form-text {
-  font-size: 14px;
+  font-size: 0.87rem;
   font-weight: 200;
 }
 /* ESTILOS FOOTER */
@@ -278,22 +278,22 @@
   align-items: center;
   background-color: #303030;
   width: 100%;
-  height: 160px;
+  height: 10rem;
 }
 .fas {
   color: #adadad;
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
 }
 .footer-logo {
-  width: 78px;
-  height: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 4.87rem;
+  height: 3.12rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 .footer-small {
   color: #adadad;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 /* ESTILOS GENÉRICOS */
 .bold {
@@ -303,21 +303,21 @@
   text-transform: uppercase;
 }
 .linea {
-  width: 100px;
-  height: 5px;
+  width: 6.25rem;
+  height: 0.31rem;
   background-color: #9bd189;
-  margin-top: 10px;
+  margin-top: 0.62rem;
 }
 .btn {
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
   background-color: #9bd189;
   border: none;
-  padding: 16px 40px;
+  padding: 1rem 2.5rem;
 }
 .btn-container {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   text-align: center;
 }
