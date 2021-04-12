@@ -218,7 +218,6 @@
 }
 /* ESTILOS CONTATO */
 .contact {
-  padding-bottom: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -270,6 +269,31 @@
 .form-text {
   font-size: 14px;
   font-weight: 200;
+}
+/* ESTILOS FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #303030;
+  width: 100%;
+  height: 160px;
+}
+.fas {
+  color: #adadad;
+  width: 16px;
+  height: 16px;
+}
+.footer-logo {
+  width: 78px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-small {
+  color: #adadad;
+  font-size: 12px;
 }
 /* ESTILOS GENÉRICOS */
 .bold {
