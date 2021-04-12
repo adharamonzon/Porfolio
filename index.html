@@ -22,7 +22,7 @@
           <li class="nav-list-item"><a class="nav-item-item-link" href="#aboutMe">About Me</a></li>
           <li class="nav-list-item"><a class="nav-item-item-link" href="#works">Works</a></li>
           <li class="nav-list-item"><a class="nav-item-item-link" href="#followMe">Contact Me</a></li>
-          <li class="nav-list-item"><a class="nav-item-item-link" href="">Follow Me</a></li>
+          <li class="nav-list-item"><a class="nav-item-item-link" href="#contact">Follow Me</a></li>
         </ul>
       </nav>
     </header>
@@ -41,7 +41,7 @@
             <p class="aboutMe-text">La inquietud por aprender es una constante, he comenzado una nueva etapa como desarrolladora Front-end con mucha ilusión y ganas de aprender. Este reto está lleno de creatividad, pensamiento lógico y resolución de problemas y tras estos meses aprendiendo, me he dado cuenta que el camino de la programación es el mio. Me encanta este nuevo reto y poder fusionarlo con mis experiencias anteriores.</p>
             <p class="aboutMe-text" style="margin-bottom: 30px">En mi tiempo libre me apasiona la música, la naturaleza y los deportes en equipo, siempre es interesante empezar un deporte nuevo, conocer nuevos lugares o aprender a tocar un nuevo instrumento.</p>
             <div class="btn-container">
-              <a class="aboutMe-button uppercase">More about me</a>
+              <a class="btn uppercase">More about me</a>
             </div>
           </div>
         </section>
@@ -53,7 +53,7 @@
         </div>
         <ul class="works-list"></ul>
         <div class="btn-container">
-          <a class="works-button uppercase">Load more</a>
+          <a class="btn uppercase">Load more</a>
         </div>
       </section>
       <section class="followMe" id="followMe">
@@ -71,6 +71,21 @@
           <div class="icon-container">
             <a class="icon-link" href="https://twitter.com/MonzonAdhara"><i class="fab fa-twitter"></i></a>
           </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="contact-title-section">
+          <h2 class="contact-title uppercase">Contact me</h2>
+          <div class="linea"></div>
+          <p class="contact-subtitle">Rellena el formulario para ponerte en contacto conmigo</p>
+        </div>
+        <form class="form" action="mailto:adharamonzon@gmail.com" method="POST"></form>
+        <input class="form-input" type="text" placeholder="  Your Name *" name="name" id="name" required />
+        <input class="form-input" type="text" placeholder="  Your E-mail address *" name="email" id="email" required />
+        <input class="form-textarea" type="text-area" type="text" placeholder=" Your Message *" name="text" id="text" required />
+        <div class="form-submitsection">
+          <small class="form-text">All fields marked with an asterisk(*) are required</small>
+          <button class="btn uppercase" type="submit">Send</button>
         </div>
       </section>
     </main>
