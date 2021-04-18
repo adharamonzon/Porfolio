@@ -23,8 +23,7 @@
   {
     "id": 3,
     "name": "Awesome Cards",
-        "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
-
+    "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
     "description": "awesome-cards: An interactive web where you can create your own personal card and share it in your social media.",
     "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
     "codeUrl": "https://github.com/adharamonzon/awesome-cards",
@@ -33,8 +32,7 @@
   {
     "id": 4,
     "name": "Psicología Indra",
-        "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
-
+    "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
     "description": "Web de información del gabinete de psicología Indra. Información de contacto, trayectoria profesional, tipos de terapia, etc.",
     "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
     "codeUrl": "https://github.com/adharamonzon/psicologia-indra",
@@ -43,8 +41,7 @@
   {
     "id": 5,
     "name": "La tiendina",
-        "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
-
+    "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
     "description": "E-commerce, prototipo de una tienda online. Desarrollada la funcionalidad para comprar en la web y modificar la compra en el carro, también disponible con drag and drop",
     "languajes": ["JavaScript", "HTML5", "CSS3"],
     "codeUrl": "https://github.com/adharamonzon/showcase",
@@ -53,8 +50,7 @@
   {
     "id": 6,
     "name": "La tiendina",
-        "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
-
+    "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
     "description": "E-commerce, prototipo de una tienda online. Desarrollada la funcionalidad para comprar en la web y modificar la compra en el carro, también disponible con drag and drop",
     "languajes": ["JavaScript", "HTML5", "CSS3"],
     "codeUrl": "https://github.com/adharamonzon/showcase",
