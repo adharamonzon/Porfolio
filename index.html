@@ -21,8 +21,8 @@
         <ul class="nav-list uppercase">
           <li class="nav-list-item"><a class="nav-item-item-link" href="#aboutMe">About Me</a></li>
           <li class="nav-list-item"><a class="nav-item-item-link" href="#works">Works</a></li>
-          <li class="nav-list-item"><a class="nav-item-item-link" href="#followMe">Contact Me</a></li>
-          <li class="nav-list-item"><a class="nav-item-item-link" href="#contact">Follow Me</a></li>
+          <li class="nav-list-item"><a class="nav-item-item-link" href="#contact">Contact Me</a></li>
+          <li class="nav-list-item"><a class="nav-item-item-link" href="#followMe">Follow Me</a></li>
         </ul>
       </nav>
     </header>
@@ -79,14 +79,15 @@
           <div class="linea"></div>
           <p class="contact-subtitle">Rellena el formulario para ponerte en contacto conmigo</p>
         </div>
-        <form class="form" action="mailto:adharamonzon@gmail.com" method="POST"></form>
-        <input class="form-input" type="text" placeholder="  Your Name *" name="name" id="name" required />
-        <input class="form-input" type="text" placeholder="  Your E-mail address *" name="email" id="email" required />
-        <input class="form-textarea" type="text-area" type="text" placeholder=" Your Message *" name="text" id="text" required />
-        <div class="form-submitsection">
-          <small class="form-text">All fields marked with an asterisk(*) are required</small>
-          <button class="btn uppercase" type="submit">Send</button>
-        </div>
+        <form class="form" action="mailto:adharamonzon@gmail.com" method="POST" enctype="text/plain">
+          <input class="form-input" type="text" placeholder="  Your Name *" name="name" id="name" required />
+          <input class="form-input" type="text" placeholder="  Your E-mail address *" name="email" id="email" required />
+          <input class="form-textarea" type="text-area" type="text" placeholder=" Your Message *" name="text" id="text" required />
+          <div class="form-submitsection">
+            <small class="form-text">All fields marked with an asterisk(*) are required</small>
+            <button class="btn uppercase" type="submit">Send</button>
+          </div>
+        </form>
       </section>
     </main>
     <footer class="footer">

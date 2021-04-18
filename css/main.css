@@ -253,6 +253,8 @@
 /* FORM */
 .form {
   margin-top: 3.43rem;
+  display: flex;
+  flex-direction: column;
 }
 .form-input {
   width: 36.25rem;
