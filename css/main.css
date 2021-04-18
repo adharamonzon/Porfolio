@@ -51,12 +51,13 @@
   padding: 0.31rem;
   cursor: pointer;
 }
-.nav-list-item:hover {
-  border-bottom: #9bd189 solid 3px;
-}
 .nav-item-item-link {
   text-decoration-line: none;
   color: white;
+  border: 3px solid transparent;
+}
+.nav-item-item-link:hover {
+  border-bottom: 3px solid #9bd189;
 }
 /* ESTILOS ABOUT ME */
 .aboutMe {
@@ -193,25 +194,31 @@
   color: black;
   align-self: center;
 }
-.icon-container:hover {
+.icon-container {
   display: flex;
   width: 3.5rem;
   height: 3.5rem;
-  border: solid 0.06rem #9bd189;
+  border: solid 0.06rem transparent;
   border-radius: 56%;
   justify-content: center;
   align-items: center;
 }
-
-.icon-link:hover {
+.icon-link {
   border-radius: 50%;
-  background: #9bd189;
+  background: transparent;
   width: 2.81rem;
   height: 2.81rem;
   display: flex;
   justify-content: center;
   color: white;
   text-decoration: none;
+}
+.icon-container:hover {
+  border: solid 0.06rem #9bd189;
+}
+
+.icon-link:hover {
+  background: #9bd189;
 }
 .fab:hover {
   color: white;
