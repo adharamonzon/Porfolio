@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+/* ESTILOS HEADER  */
+.header {
+  height: 50vh;
+  background-color: rgb(22, 22, 22);
+  background-image: url(./images/aboutMeHeader.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-title {
+  text-align: center;
+  padding-top: 5.62rem;
+  font-weight: normal;
+  font-size: 2.87rem;
+  color: white;
+}
+/* ESTILOS GENÉRICOS */
+.uppercase {
+  text-transform: uppercase;
+}
+.linea {
+  width: 15.25rem;
+  height: 0.31rem;
+  background-color: #9bd189;
+  margin-top: 0.62rem;
+}
