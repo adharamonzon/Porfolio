@@ -91,14 +91,6 @@
   margin-bottom: 1rem;
   text-align: justify;
 }
-/* .aboutMe-button {
-  color: white;
-  background-color: #9bd189;
-  width: 11.25;
-  height: 3.12rem;
-  padding: 1rem 1.56rem;
-  cursor: pointer;
-} */
 
 /* ESTILOS WORKS */
 .works {
@@ -162,9 +154,13 @@
   font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
+  background-color: rgba(226, 226, 226, 0.3);
+
+  border-radius: 0.12rem;
 }
 .work-list-item-btn:hover {
   font-size: 1.125rem;
+  background-color: #9bd189;
 }
 .works-button {
   color: white;
@@ -267,15 +263,14 @@
   margin-top: 3.43rem;
   display: flex;
   flex-direction: column;
+  width: 36.12rem;
 }
 .form-input {
-  width: 36.25rem;
   height: 3.12rem;
   margin-bottom: 1rem;
   border: 0.06rem solid #9bd189;
 }
 .form-textarea {
-  width: 36.25rem;
   height: 8.75rem;
   border: 0.06rem solid #9bd189;
   display: block;
@@ -374,5 +369,127 @@
   .btn {
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
+  }
+  .works-list {
+    grid-template-columns: repeat(3, 13rem);
+    grid-template-rows: repeat(2, 12rem);
+  }
+  .work-list-item-name {
+    font-size: 0.8rem;
+  }
+  .form {
+    width: 80%;
+  }
+  .form-submitsection {
+    width: 90%;
+  }
+}
+@media (max-width: 780px) {
+  .aboutMe-imgContainer {
+    width: 200px;
+    height: auto;
+  }
+}
+@media (max-width: 678px) {
+  .header-logo {
+    width: 12rem;
+    height: 6rem;
+  }
+  .header-title {
+    font-size: 2rem;
+  }
+  .header-subtitle {
+    font-size: 1rem;
+    letter-spacing: 0.65rem;
+  }
+  .nav-list {
+    font-size: 0.85rem;
+  }
+  .aboutMe-title {
+    font-size: 1.5rem;
+  }
+  .works-title {
+    font-size: 1.5rem;
+  }
+  .works-list {
+    grid-template-columns: repeat(3, 11rem);
+    grid-template-rows: repeat(2, 10rem);
+  }
+  .work-list-item-name {
+    font-size: 0.8rem;
+  }
+  .work-list-item-subtitle {
+    font-size: 0.69rem;
+  }
+  .followMe-title {
+    font-size: 1.5rem;
+  }
+  .contact-title {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    width: 120vw;
+    background-position: center;
+  }
+  .header-logo {
+    width: 10rem;
+    height: 7rem;
+  }
+  .header-title {
+    font-size: 1.6rem;
+  }
+  .nav {
+    width: 100%;
+  }
+  .nav-list {
+    font-size: 0.8rem;
+  }
+  .aboutMe {
+    width: 120vw;
+  }
+  .aboutMe-content {
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
+  .aboutMe-textContainer {
+    width: 20rem;
+    margin-left: -1.13rem;
+    font-size: 0.8rem;
+    line-height: 1.42rem;
+  }
+  .works {
+    width: 120vw;
+  }
+  .works-list {
+    grid-template-columns: repeat(2, 9rem);
+    grid-template-rows: repeat(3, 9rem);
+  }
+  .followMe {
+    width: 120vw;
+  }
+  .contact {
+    width: 120vw;
+  }
+  .contact-subtitle {
+    font-size: 0.84rem;
+  }
+  .form {
+    width: 80%;
+  }
+  .form-text {
+    font-size: 0.6rem;
+    margin-right: 1rem;
+  }
+  .footer {
+    width: 120vw;
+    height: 4.5rem;
+  }
+  .footer-logo {
+    width: 2rem;
+    height: auto;
+    margin: 0.4rem;
   }
 }
