@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
 }
 /* ESTILOS HEADER */
 .header {
@@ -119,7 +120,7 @@
   margin: 1rem 0px;
 }
 .work-list-item {
-  color: black;
+  color: white;
   border: solid 0.06rem black;
   display: flex;
   flex-direction: column;
@@ -144,23 +145,20 @@
   font-weight: 600;
   width: 85%;
   margin-bottom: 0.93rem;
-  background-color: rgba(226, 226, 226, 0.3);
   padding: 0.12rem;
-  border-radius: 0.12rem;
+  text-align: center;
 }
 .work-list-item-btn {
-  color: black;
+  color: white;
   font-weight: 500;
   font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
-  background-color: rgba(226, 226, 226, 0.3);
 
   border-radius: 0.12rem;
 }
 .work-list-item-btn:hover {
   font-size: 1.125rem;
-  background-color: #9bd189;
 }
 .works-button {
   color: white;
@@ -295,6 +293,7 @@
   background-color: #303030;
   width: 100%;
   height: 10rem;
+  scroll-behavior: smooth;
 }
 .fas {
   color: #adadad;
@@ -466,6 +465,24 @@
   .works-list {
     grid-template-columns: repeat(2, 9rem);
     grid-template-rows: repeat(3, 9rem);
+  }
+  .work-list-item:nth-child(1) {
+    background-image: url(../css/images/fotoA.jpg);
+  }
+  .work-list-item:nth-child(2) {
+    background-image: url(../css/images/fotoC.jpg);
+  }
+  .work-list-item:nth-child(3) {
+    background-image: url(../css/images/fotoC.jpg);
+  }
+  .work-list-item:nth-child(4) {
+    background-image: url(../css/images/fotoA.jpg);
+  }
+  .work-list-item:nth-child(5) {
+    background-image: url(../css/images/fotoA.jpg);
+  }
+  .work-list-item:nth-child(6) {
+    background-image: url(../css/images/fotoC.jpg);
   }
   .followMe {
     width: 120vw;

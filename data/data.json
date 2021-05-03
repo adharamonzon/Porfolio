@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Buscador de series",
-    "subtitle": "Aplicación web, buscador de series traidas de una API, se pueden seleccionar favoritas.",
+    "subtitle": "Aplicación web, JS",
     "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
     "codeUrl": "https://github.com/adharamonzon/buscador-de-series",
     "web": "https://adharamonzon.github.io/buscador-de-series/"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Front Runners",
-    "subtitle": "Página web responsive, en el que se da a conocer a un nuevo grupo de programadoras front-end",
+    "subtitle": "Página web responsive, HTML y CSS",
     "languajes": ["HTML5", "CSS3", "Sass"],
     "codeUrl": "https://github.com/adharamonzon/Front-Runners",
     "web": "https://adharamonzon.github.io/Front-Runners/"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Awesome Cards",
-    "subtitle": "Aplicación web, en la que puedes crear tu propia tarjeta profesional digital y compartirla en redes",
+    "subtitle": "Aplicación web, React.js",
     "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
     "codeUrl": "https://github.com/adharamonzon/awesome-cards",
     "web": "https://adharamonzon.github.io/Front-Runners/"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Psicología Indra",
-    "subtitle": "Página web del gabinete de Psicología Indra",
+    "subtitle": "Página web, HTML, CSS y JS",
     "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
     "codeUrl": "https://github.com/adharamonzon/psicologia-indra",
     "web": "https://adharamonzon.github.io/psicologia-indra/"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "La tiendina",
-    "subtitle": "Aplicación web, simulador de un e-commerce, con todas las funcionalidades de una tienda virtual",
+    "subtitle": "Aplicación web, JS",
     "languajes": ["JavaScript", "HTML5", "CSS3"],
     "codeUrl": "https://github.com/adharamonzon/showcase",
     "web": "https://adharamonzon.github.io/showcase/"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Trello",
-    "subtitle": "Aplicación web, para organizar proyectos y tu tiempo de una manera personalizada y sencilla.",
+    "subtitle": "Aplicación web, React.js",
     "languajes": ["JavaScript", "HTML5", "CSS3"],
     "codeUrl": "https://github.com/adharamonzon/showcase",
     "web": "https://adharamonzon.github.io/showcase/"
