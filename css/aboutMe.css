@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Raleway, sans-serif;
+  scroll-behavior: smooth;
 }
 /* ESTILOS HEADER  */
 .header {
@@ -281,4 +282,17 @@
 }
 .bold {
   font-weight: bolder;
+}
+.btn {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #9bd189;
+  border: solid 2px transparent;
+  padding: 1rem 2.5rem;
+}
+.btn:hover {
+  border: solid 2px #83af74;
+  color: #83af74;
 }
