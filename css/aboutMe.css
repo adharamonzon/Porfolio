@@ -31,7 +31,7 @@
 }
 /* ESTILOS MAIN/ABOUTME */
 .main-aboutMe {
-  width: 75%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,8 +49,8 @@
 }
 /* ESTILOS MAIN */
 .main-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-evenly;
   margin: 20px;
 }
 /* ESTILOS MAIN/EDUCACIÓN */
@@ -60,24 +60,29 @@
   justify-content: center;
   align-content: center;
 }
-.main-education-title {
+.main-title {
   text-align: center;
 }
 .education-list {
   list-style: none;
-  margin-top: 15px;
+  margin: 15px 30px;
 }
+/* .education-list::before {
+  position: absolute;
+  content: '';
+  width: 0.3rem;
+  height: 100%;
+  background-color: #9bd189;
+  left: 0.8rem;
+} */
 .education-list-item {
   display: flex;
-  justify-content: space-between;
 }
 .education-list-item-timeline {
-  margin-right: 5px;
+  margin-right: 15px;
+  margin-top: 5px;
 }
-.education-list-line {
-  border-bottom: solid 2px #9bd189;
-  transform: rotate(180deg);
-}
+
 .education-list-item-title {
   font-size: 14px;
   font-weight: bold;
@@ -89,14 +94,172 @@
   line-height: 26px;
 }
 .education-list-item-icon {
-  width: 50px;
+  width: 60px;
   height: auto;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 .main-skills {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+}
+.skills-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-self: center;
+  margin-top: 15px;
+}
+.skills-list-item {
+}
+.skills-list-item-icon {
+  color: #9bd189;
+  font-size: 65px;
+} /* ESTILOS FOLLOW ME */
+.followMe {
+  background-color: #f7f7f7;
+  padding-bottom: 9.37rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.followMe-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.followMe-title {
+  text-align: center;
+  padding-top: 5.62rem;
+  font-weight: normal;
+  font-size: 1.87rem;
+}
+.followMe-rrss {
+  width: 40%;
+  margin-top: 5.62rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.follomeIcon {
+  font-size: 1.43rem;
+  color: black;
+  align-self: center;
+}
+.icon-container {
+  display: flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: solid 0.06rem transparent;
+  border-radius: 56%;
+  justify-content: center;
+  align-items: center;
+}
+.icon-link {
+  border-radius: 50%;
+  background: transparent;
+  width: 2.81rem;
+  height: 2.81rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+.icon-container:hover {
+  border: solid 0.06rem #9bd189;
+}
+
+.icon-link:hover {
+  background: #9bd189;
+}
+.follomeIcon:hover {
+  color: white;
+}
+/* ESTILOS CONTATO */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-title {
+  text-align: center;
+  padding-top: 5.62rem;
+  font-weight: normal;
+  font-size: 1.87rem;
+}
+.contact-subtitle {
+  margin-top: 2.5rem;
+}
+.form-btn {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* FORM */
+.form {
+  margin-top: 3.43rem;
+  display: flex;
+  flex-direction: column;
+  width: 36.12rem;
+}
+.form-input {
+  height: 3.12rem;
+  margin-bottom: 1rem;
+  border: 0.06rem solid #9bd189;
+}
+.form-textarea {
+  height: 8.75rem;
+  border: 0.06rem solid #9bd189;
+  display: block;
+}
+.form-submitsection {
+  display: flex;
+  justify-content: space-between;
+  width: 36.25rem;
+  margin-top: 1.87rem;
+  margin-bottom: 6.25rem;
+}
+.form-text {
+  font-size: 0.87rem;
+  font-weight: 200;
+}
+/* ESTILOS FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #303030;
+  width: 100%;
+  height: 10rem;
+  scroll-behavior: smooth;
+}
+.fas {
+  color: #adadad;
+  width: 1rem;
+  height: 1rem;
+}
+.footer-logo {
+  width: 4.87rem;
+  height: 3.12rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.footer-small {
+  color: #adadad;
+  font-size: 0.75rem;
 }
 /* ESTILOS GENÉRICOS */
 .uppercase {
@@ -109,7 +272,8 @@
   margin-top: 0.62rem;
 }
 .linea {
-  width: 3.35rem;
+  display: inline-block;
+  width: 4.35rem;
   height: 0.31rem;
   background-color: #9bd189;
   margin-top: 0.62rem;
