@@ -37,22 +37,22 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin: 65px auto;
+  margin: 4.06rem auto;
 }
 .main-aboutMe-title {
   text-align: center;
-  margin-bottom: 40px;
-  font-size: 22px;
+  margin-bottom: 2.5rem;
+  font-size: 1.37rem;
 }
 .main-aboutMe-text {
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 0.87rem;
+  line-height: 1.62rem;
 }
 /* ESTILOS MAIN */
 .main-section {
   display: flex;
   justify-content: space-evenly;
-  margin: 20px;
+  margin: 1.25rem;
 }
 /* ESTILOS MAIN/EDUCACIÓN */
 .main-education {
@@ -66,7 +66,7 @@
 }
 .education-list {
   list-style: none;
-  margin: 15px 30px;
+  margin: 0.93rem 1.87rem;
 }
 /* .education-list::before {
   position: absolute;
@@ -80,25 +80,25 @@
   display: flex;
 }
 .education-list-item-timeline {
-  margin-right: 15px;
-  margin-top: 5px;
+  margin-right: 0.93rem;
+  margin-top: 0.31rem;
 }
 
 .education-list-item-title {
-  font-size: 14px;
+  font-size: 0.87rem;
   font-weight: bold;
-  line-height: 26px;
+  line-height: 1.62rem;
 }
 .education-list-item-text {
-  font-size: 14px;
+  font-size: 0.87rem;
   font-weight: normal;
-  line-height: 26px;
+  line-height: 1.62rem;
 }
 .education-list-item-icon {
   width: 60px;
   height: auto;
-  margin-left: 20px;
-  margin-top: 5px;
+  margin-left: 1.25rem;
+  margin-top: 0.31rem;
 }
 .main-skills {
   display: flex;
@@ -110,16 +110,14 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 60px);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-column-gap: 1.25rem 3.75rem;
+  grid-row-gap: 1.25rem;
   align-self: center;
-  margin-top: 15px;
-}
-.skills-list-item {
+  margin-top: 0.93rem;
 }
 .skills-list-item-icon {
   color: #9bd189;
-  font-size: 65px;
+  font-size: 4.06rem;
 } /* ESTILOS FOLLOW ME */
 .followMe {
   background-color: #f7f7f7;
@@ -148,14 +146,14 @@
   align-items: center;
 }
 .follomeIcon {
-  font-size: 1.43rem;
+  font-size: 3.43rem;
   color: black;
   align-self: center;
 }
 .icon-container {
   display: flex;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 7.5rem;
+  height: 7.5rem;
   border: solid 0.06rem transparent;
   border-radius: 56%;
   justify-content: center;
@@ -164,8 +162,8 @@
 .icon-link {
   border-radius: 50%;
   background: transparent;
-  width: 2.81rem;
-  height: 2.81rem;
+  width: 5.81rem;
+  height: 5.81rem;
   display: flex;
   justify-content: center;
   color: white;
@@ -245,7 +243,6 @@
   background-color: #303030;
   width: 100%;
   height: 10rem;
-  scroll-behavior: smooth;
 }
 .fas {
   color: #adadad;
@@ -289,10 +286,10 @@
   text-decoration: none;
   cursor: pointer;
   background-color: #9bd189;
-  border: solid 2px transparent;
+  border: solid 0.12rem transparent;
   padding: 1rem 2.5rem;
 }
 .btn:hover {
-  border: solid 2px #83af74;
+  border: solid 0.12rem #83af74;
   color: #83af74;
 }
