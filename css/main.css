@@ -43,6 +43,7 @@
 }
 .nav {
   width: 60%;
+  justify-content: center;
 }
 .nav-list {
   list-style: none;
@@ -56,9 +57,11 @@
   text-decoration-line: none;
   color: white;
   border: 0.18rem solid transparent;
+  margin-right: 18px;
 }
 .nav-item-item-link:hover {
   border-bottom: 0.18rem solid #9bd189;
+  color: white;
 }
 /* ESTILOS ABOUT ME */
 .aboutMe {
@@ -359,8 +362,44 @@
 .modal-description {
   margin-left: 0.31rem;
 }
+.modal-languajes {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-left: -20px;
+  width: 300px;
+}
+.modal-languajes-item {
+  font-size: 16px;
+  border: solid #83af74 2px;
+  color: #83af74;
+  border-radius: 3px;
+  font-weight: 600;
+  height: 36px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 8px;
+}
 .modal-footer {
   justify-content: space-around;
+}
+.modalBtn-container {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+.btn-modal {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #9bd189;
+  border: solid 0.12rem transparent;
+  border-radius: 2px;
+  padding: 0.2rem 0.2rem;
+  margin-top: 10px;
 }
 .cart-icon {
   width: 0.75rem;

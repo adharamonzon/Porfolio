@@ -48,9 +48,10 @@ const showModal = () => {
           modalCard += `<p>${languaje}</p>`;
           modalCard += '</li>';
         }
-        modalCard += '<div class="btn-container">';
-        modalCard += '<button class="btn">Ir a la web</button>';
-        modalCard += '<button class="btn">Ir al código</button>';
+        modalCard += '</ul>';
+        modalCard += '<div class="modalBtn-container">';
+        modalCard += `<a href=${work.web} target="_blank" class="btn-modal">Ir a la web</a>`;
+        modalCard += `<a href=${work.codeUrl} target="_blank" class="btn-modal">Ir al código</a>`;
         modalCard += '</div>';
         modalCard += `</div>`;
       }

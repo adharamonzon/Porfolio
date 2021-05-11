@@ -40,7 +40,7 @@
     "name": "La tiendina",
     "subtitle": "Aplicación web, JS",
     "description": "Aplicación web con diseño responsive, prototipo de un e-commerce con toda la funcionalidad de una tienda online, desarrollado drag-and-drop para arrastrar productos a la cesta de la compra", 
-    "languajes": ["JavaScript", "HTML5", "CSS3"],
+    "languajes": ["JavaScript", "HTML5", "CSS3", "Bootstrap"],
     "codeUrl": "https://github.com/adharamonzon/showcase",
     "web": "https://adharamonzon.github.io/showcase/"
   },
