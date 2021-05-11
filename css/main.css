@@ -154,8 +154,10 @@
   font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
-
+  padding: 3px;
   border-radius: 0.12rem;
+  border: none;
+  background-color: transparent;
 }
 .work-list-item-btn:hover {
   font-size: 1.125rem;
@@ -339,6 +341,34 @@
 .btn-container {
   margin-top: 2.5rem;
   text-align: center;
+}
+.show {
+  display: block;
+}
+/* VENTANA MODAL */
+/* ESTILOS DE LA VENTANA MODAL */
+.modal-content {
+  width: 80%;
+  margin-top: 12.5rem;
+}
+.modal-title {
+  font-size: 1.5rem;
+}
+.modal-body {
+  align-self: center;
+}
+.modal-img {
+  height: 12.5rem;
+  width: auto;
+}
+.modal-description {
+  margin-left: 0.31rem;
+}
+.modal-footer {
+  justify-content: flex-start;
+}
+.cart-icon {
+  width: 0.75rem;
 }
 /* MEDIA QUERIES */
 @media (max-width: 900px) {
