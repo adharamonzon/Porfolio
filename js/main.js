@@ -30,7 +30,6 @@ const showModal = () => {
   const modalTriger = document.querySelectorAll('.js-workBtn');
 
   const handelModal = (ev) => {
-    debugger;
     modalCard = '';
     const btnTriger = parseInt(ev.currentTarget.id);
     for (const work of works) {
@@ -40,9 +39,19 @@ const showModal = () => {
         modalCard += `<h5 class="modal-title" id="exampleModalLabel">${work.name}</h5>`;
         modalCard += `</div>`;
         modalCard += `<div modal-body> `;
-        modalCard += `<p class="modal-description">${work.subtitle}</p>`;
+        modalCard += `<p class="modal-description">${work.description}</p>`;
         modalCard += '</div>';
         modalCard += '<div class="modal-footer">';
+        modalCard += `<ul class="modal-languajes">`;
+        for (const languaje of work.languajes) {
+          modalCard += `<li class="modal-languajes-item">`;
+          modalCard += `<p>${languaje}</p>`;
+          modalCard += '</li>';
+        }
+        modalCard += '<div class="btn-container">';
+        modalCard += '<button class="btn">Ir a la web</button>';
+        modalCard += '<button class="btn">Ir al código</button>';
+        modalCard += '</div>';
         modalCard += `</div>`;
       }
     }

@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Buscador de series",
     "subtitle": "Aplicación web, JS",
+    "description": "Aplicación web con diseño responsive. Aplicación realizada con una API de terceros, en la que se pueden buscar películas y hacer una selección de favoritas.",
     "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
     "codeUrl": "https://github.com/adharamonzon/buscador-de-series",
     "web": "https://adharamonzon.github.io/buscador-de-series/"
@@ -11,6 +12,7 @@
     "id": 2,
     "name": "Front Runners",
     "subtitle": "Página web responsive, HTML y CSS",
+    "description":"Página web con diseño responsive. El objetivo es aplicar los conocimientos en HTML y CSS, hacer varias páginas en una y la implementación de un formulario.",
     "languajes": ["HTML5", "CSS3", "Sass"],
     "codeUrl": "https://github.com/adharamonzon/Front-Runners",
     "web": "https://adharamonzon.github.io/Front-Runners/"
@@ -19,6 +21,7 @@
     "id": 3,
     "name": "Awesome Cards",
     "subtitle": "Aplicación web, React.js",
+    "description": "Aplicación Web con diseño responsive. El objetivo es refactorizar un código heredado en JavaScript y actualizarlo y mejorarlo sin perderr ninguna funcionalidad utlizando el framework de React.js",
     "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
     "codeUrl": "https://github.com/adharamonzon/awesome-cards",
     "web": "https://adharamonzon.github.io/Front-Runners/"
@@ -27,6 +30,7 @@
     "id": 4,
     "name": "Psicología Indra",
     "subtitle": "Página web, HTML, CSS y JS",
+    "description" : "Página web con diseño responsive para el Gabinete de Psicología Indra.", 
     "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
     "codeUrl": "https://github.com/adharamonzon/psicologia-indra",
     "web": "https://adharamonzon.github.io/psicologia-indra/"
@@ -35,6 +39,7 @@
     "id": 5,
     "name": "La tiendina",
     "subtitle": "Aplicación web, JS",
+    "description": "Aplicación web con diseño responsive, prototipo de un e-commerce con toda la funcionalidad de una tienda online, desarrollado drag-and-drop para arrastrar productos a la cesta de la compra", 
     "languajes": ["JavaScript", "HTML5", "CSS3"],
     "codeUrl": "https://github.com/adharamonzon/showcase",
     "web": "https://adharamonzon.github.io/showcase/"
@@ -43,6 +48,7 @@
     "id": 6,
     "name": "Trello",
     "subtitle": "Aplicación web, React.js",
+    "description": "Aplicación web con diseño responsive, en la que se realiza un prototipo de trello, para poder organizar proyectos, crear proyectos nuevos, tareas, etc.",
     "languajes": ["JavaScript", "HTML5", "CSS3"],
     "codeUrl": "https://github.com/adharamonzon/showcase",
     "web": "https://adharamonzon.github.io/showcase/"
