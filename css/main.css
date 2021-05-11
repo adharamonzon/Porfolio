@@ -225,7 +225,7 @@
   text-decoration: none;
 }
 .icon-container:hover {
-  border: solid 0.06rem #9bd189;
+  border: solid 0.06rem #638657;
 }
 
 .icon-link:hover {
@@ -338,20 +338,20 @@
   padding: 1rem 2.5rem;
 }
 .btn:hover {
-  border: solid 0.12rem #83af74;
+  border: solid 0.12rem #638657;
   color: #83af74;
 }
 .btn-container {
   margin-top: 2.5rem;
   text-align: center;
 }
-.show {
-  display: block;
-}
 /* VENTANA MODAL */
 .modal-content {
   width: 80%;
   margin-top: 12.5rem;
+}
+.modal-header {
+  justify-content: center;
 }
 .modal-title {
   font-size: 1.5rem;
@@ -360,7 +360,7 @@
   align-self: center;
 }
 .modal-description {
-  margin-left: 0.31rem;
+  margin-left: 0.61rem;
 }
 .modal-languajes {
   list-style: none;
@@ -400,6 +400,10 @@
   border-radius: 2px;
   padding: 0.2rem 0.2rem;
   margin-top: 10px;
+}
+.btn-modal:hover {
+  color: #638657;
+  border: solid 0.12rem #83af74;
 }
 .cart-icon {
   width: 0.75rem;
