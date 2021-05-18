@@ -23,8 +23,8 @@
     "subtitle": "Aplicación web, React.js",
     "description": "Aplicación Web con diseño responsive. El objetivo es refactorizar un código heredado en JavaScript y actualizarlo y mejorarlo sin perderr ninguna funcionalidad utlizando el framework de React.js",
     "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
-    "codeUrl": "https://github.com/adharamonzon/awesome-cards",
-    "web": "https://adharamonzon.github.io/Front-Runners/"
+    "codeUrl": "https://github.com/adharamonzon/awasome-cards-react",
+    "web": "https://beta.adalab.es/project-promo-i-module-3-team-4-morning/#/"
   },
   {
     "id": 4,
@@ -52,5 +52,32 @@
     "languajes": ["JavaScript", "HTML5", "CSS3"],
     "codeUrl": "https://github.com/adharamonzon/showcase",
     "web": "https://adharamonzon.github.io/showcase/"
+  },
+  {
+    "id": 7,
+    "name": "Awaseome Cardas",
+    "subtitle": "Aplicación web, JavaScript",
+    "description": "Aplicación web con diseño responsive, para crear una tarjeta de visita personalizada y virtual con JavaScript",
+    "languajes": ["JavaScript", "HTML5", "CSS3"],
+    "codeUrl": "https://github.com/adharamonzon/awesome-cards",
+    "web": "https://adharamonzon.github.io/awesome-cards/"
+  },
+  {
+    "id": 8,
+    "name": "Rick & Morty",
+    "subtitle": "Aplicación web, React.js",
+    "description": "Aplicación web con diseño responsive, presentación de los personajes de la serie con información adicional",
+    "languajes": ["JavaScript", "React", "HTML5", "CSS3"],
+    "codeUrl": "https://github.com/adharamonzon/rick-y-morty",
+    "web": "https://adharamonzon.github.io/rick-y-morty/#/"
+  },
+  {
+    "id": 9,
+    "name": "Bossify",
+    "subtitle": "Aplicación web, Angular.js",
+    "description": "Aplicación web de música, grupos de Rock de los años 60-70, con descripción de cada grupo",
+    "languajes": ["JavaScript", "Angular", "HTML5", "CSS3"],
+    "codeUrl": "https://github.com/adharamonzon/Bossify",
+    "web": "https://adharamonzon.github.io/rick-y-morty/#/"
   }
 ]
