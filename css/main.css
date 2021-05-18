@@ -201,7 +201,7 @@
   align-items: center;
 }
 .fab {
-  font-size: 1.43rem;
+  font-size: 2rem;
   color: black;
   align-self: center;
 }
@@ -225,7 +225,7 @@
   text-decoration: none;
 }
 .icon-container:hover {
-  border: solid 0.06rem #638657;
+  border: solid 0.06rem #9bd189;
 }
 
 .icon-link:hover {
@@ -338,8 +338,8 @@
   padding: 1rem 2.5rem;
 }
 .btn:hover {
-  border: solid 0.12rem #638657;
-  color: #83af74;
+  border: solid 0.12rem #83af74;
+  color: #6c925f;
 }
 .btn-container {
   margin-top: 2.5rem;
@@ -347,8 +347,9 @@
 }
 /* VENTANA MODAL */
 .modal-content {
-  width: 80%;
+  width: 90%;
   margin-top: 12.5rem;
+  padding: 0.8rem;
 }
 .modal-header {
   justify-content: center;
@@ -402,7 +403,7 @@
   margin-top: 10px;
 }
 .btn-modal:hover {
-  color: #638657;
+  color: #6c925f;
   border: solid 0.12rem #83af74;
 }
 .cart-icon {

@@ -60,13 +60,14 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  width: 50%;
 }
 .main-title {
   text-align: center;
 }
 .education-list {
   list-style: none;
-  margin: 0.93rem 1.87rem;
+  margin: 0.93rem 2;
 }
 /* .education-list::before {
   position: absolute;
@@ -78,12 +79,12 @@
 } */
 .education-list-item {
   display: flex;
+  margin-bottom: 1rem;
 }
 .education-list-item-timeline {
   margin-right: 0.93rem;
-  margin-top: 0.31rem;
+  margin-top: 0.2rem;
 }
-
 .education-list-item-title {
   font-size: 0.87rem;
   font-weight: bold;
@@ -100,19 +101,23 @@
   margin-left: 1.25rem;
   margin-top: 0.31rem;
 }
+.education-list-item-company {
+  display: flex;
+  align-items: center;
+}
 .main-skills {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-content: center;
 }
 .skills-list {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(3, 60px);
+  grid-template-columns: repeat(3, 100px);
   grid-column-gap: 1.25rem 3.75rem;
   grid-row-gap: 1.25rem;
   align-self: center;
+  justify-items: center;
   margin-top: 0.93rem;
 }
 .skills-list-item-icon {
