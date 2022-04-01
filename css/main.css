@@ -73,17 +73,21 @@
   flex-direction: column;
   align-items: center;
 }
+.aboutMe-subtitle-section {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
 .aboutMe-title {
   text-align: center;
-  padding-top: 5.62rem;
+  padding-top: 2.62rem;
   font-weight: normal;
   font-size: 1.87rem;
 }
-
 .aboutMe-content {
   display: flex;
   justify-content: center;
-  margin: 3.75rem 3.43rem;
+  margin: 0.75rem 3.43rem;
 }
 .aboutMe-textContainer {
   width: 48.12rem;
@@ -95,7 +99,24 @@
   margin-bottom: 1rem;
   text-align: justify;
 }
-
+/* ESTILOS EXPERIENCIA PROFESIONAL */
+.experience-item {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-top: 0.8rem;
+}
+.experience-list-item-timeline {
+  margin-right: 0.93rem;
+  margin-top: 0.2rem;
+}
+.experience-list-item-title {
+  font-size: 0.87rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.experience-text {
+  margin: 0;
+}
 /* ESTILOS WORKS */
 .works {
   padding-bottom: 2.5rem;
@@ -328,6 +349,12 @@
   background-color: #9bd189;
   margin-top: 0.62rem;
 }
+.linea-subtitle {
+  width: 6.25rem;
+  height: 0.21rem;
+  background-color: #9bd189;
+  margin-top: 0.12rem;
+}
 .btn {
   color: white;
   font-size: 1rem;
@@ -342,7 +369,7 @@
   color: #6c925f;
 }
 .btn-container {
-  margin-top: 2.5rem;
+  margin-top: -0.5rem;
   text-align: center;
 }
 /* VENTANA MODAL */
