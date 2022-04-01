@@ -1,42 +1,6 @@
 [
   {
     "id": 1,
-    "name": "Buscador de series",
-    "subtitle": "Aplicación web, JS",
-    "description": "Aplicación web con diseño responsive. Aplicación realizada con una API de terceros, en la que se pueden buscar películas y hacer una selección de favoritas.",
-    "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
-    "codeUrl": "https://github.com/adharamonzon/buscador-de-series",
-    "web": "https://adharamonzon.github.io/buscador-de-series/"
-  },
-  {
-    "id": 2,
-    "name": "Front Runners",
-    "subtitle": "Página web responsive, HTML y CSS",
-    "description":"Página web con diseño responsive. El objetivo es aplicar los conocimientos en HTML y CSS, hacer varias páginas en una y la implementación de un formulario.",
-    "languajes": ["HTML5", "CSS3", "Sass"],
-    "codeUrl": "https://github.com/adharamonzon/Front-Runners",
-    "web": "https://adharamonzon.github.io/Front-Runners/"
-  },
-  {
-    "id": 3,
-    "name": "Awesome Cards",
-    "subtitle": "Aplicación web, React.js",
-    "description": "Aplicación Web con diseño responsive. El objetivo es refactorizar un código heredado en JavaScript y actualizarlo y mejorarlo sin perderr ninguna funcionalidad utlizando el framework de React.js",
-    "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
-    "codeUrl": "https://github.com/adharamonzon/awasome-cards-react",
-    "web": "https://beta.adalab.es/project-promo-i-module-3-team-4-morning/#/"
-  },
-  {
-    "id": 4,
-    "name": "Psicología Indra",
-    "subtitle": "Página web, HTML, CSS y JS",
-    "description" : "Página web con diseño responsive para el Gabinete de Psicología Indra.", 
-    "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
-    "codeUrl": "https://github.com/adharamonzon/psicologia-indra",
-    "web": "https://adharamonzon.github.io/psicologia-indra/"
-  },
-  {
-    "id": 5,
     "name": "La tiendina",
     "subtitle": "Aplicación web, JS",
     "description": "Aplicación web con diseño responsive, prototipo de un e-commerce con toda la funcionalidad de una tienda online, desarrollado drag-and-drop para arrastrar productos a la cesta de la compra", 
@@ -45,25 +9,7 @@
     "web": "https://adharamonzon.github.io/showcase/"
   },
   {
-    "id": 6,
-    "name": "Trello",
-    "subtitle": "Aplicación web, React.js",
-    "description": "Aplicación web con diseño responsive, en la que se realiza un prototipo de trello, para poder organizar proyectos, crear proyectos nuevos, tareas, etc.",
-    "languajes": ["JavaScript", "HTML5", "CSS3"],
-    "codeUrl": "https://github.com/adharamonzon/showcase",
-    "web": "https://adharamonzon.github.io/showcase/"
-  },
-  {
-    "id": 7,
-    "name": "Awaseome Cardas",
-    "subtitle": "Aplicación web, JavaScript",
-    "description": "Aplicación web con diseño responsive, para crear una tarjeta de visita personalizada y virtual con JavaScript",
-    "languajes": ["JavaScript", "HTML5", "CSS3"],
-    "codeUrl": "https://github.com/adharamonzon/awesome-cards",
-    "web": "https://adharamonzon.github.io/awesome-cards/"
-  },
-  {
-    "id": 8,
+    "id": 2,
     "name": "Rick & Morty",
     "subtitle": "Aplicación web, React.js",
     "description": "Aplicación web con diseño responsive, presentación de los personajes de la serie con información adicional",
@@ -72,7 +18,35 @@
     "web": "https://adharamonzon.github.io/rick-y-morty/#/"
   },
   {
-    "id": 9,
+    "id": 3,
+    "name": "Buscador de series",
+    "subtitle": "Aplicación web, JS",
+    "description": "Aplicación web con diseño responsive. Aplicación realizada con una API de terceros, en la que se pueden buscar películas y hacer una selección de favoritas.",
+    "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
+    "codeUrl": "https://github.com/adharamonzon/buscador-de-series",
+    "web": "https://adharamonzon.github.io/buscador-de-series/"
+  },
+  
+  {
+    "id": 4,
+    "name": "Awesome Cards",
+    "subtitle": "Aplicación web, React.js",
+    "description": "Aplicación Web con diseño responsive. El objetivo es refactorizar un código heredado en JavaScript y actualizarlo y mejorarlo sin perderr ninguna funcionalidad utlizando el framework de React.js",
+    "languajes": ["JavaScript", "HTML5", "CSS3", "Sass"],
+    "codeUrl": "https://github.com/adharamonzon/awasome-cards-react",
+    "web": "https://beta.adalab.es/project-promo-i-module-3-team-4-morning/#/"
+  },
+  {
+    "id": 5,
+    "name": "Front Runners",
+    "subtitle": "Página web responsive, HTML y CSS",
+    "description":"Página web con diseño responsive. El objetivo es aplicar los conocimientos en HTML y CSS, hacer varias páginas en una y la implementación de un formulario.",
+    "languajes": ["HTML5", "CSS3", "Sass"],
+    "codeUrl": "https://github.com/adharamonzon/Front-Runners",
+    "web": "https://adharamonzon.github.io/Front-Runners/"
+  },
+  {
+    "id": 7,
     "name": "Bossify",
     "subtitle": "Aplicación web, Angular.js",
     "description": "Aplicación web de música, grupos de Rock de los años 60-70, con descripción de cada grupo",

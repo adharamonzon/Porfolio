@@ -19,7 +19,7 @@ const paintWorks = () => {
     listCode += `<li id=${work.id} class="work-list-item">`;
     listCode += `<h4 class="work-list-item-name uppercase">${work.name}</h4>`;
     listCode += `<h6 class="work-list-item-subtitle">${work.subtitle}</h6>`;
-    listCode += `<button id=${work.id} class="work-list-item-btn js-workBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Know more</button>`;
+    listCode += `<button id=${work.id} class="work-list-item-btn js-workBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Pincha aquí</button>`;
     listCode += `</li>`;
   }
   list.innerHTML = listCode;

@@ -42,7 +42,7 @@
   letter-spacing: 1.125rem;
 }
 .nav {
-  width: 60%;
+  width: 70%;
   justify-content: center;
 }
 .nav-list {
@@ -57,7 +57,6 @@
   text-decoration-line: none;
   color: white;
   border: 0.18rem solid transparent;
-  margin-right: 18px;
 }
 .nav-item-item-link:hover {
   border-bottom: 0.18rem solid #9bd189;
@@ -65,7 +64,8 @@
 }
 /* ESTILOS ABOUT ME */
 .aboutMe {
-  height: 110vh;
+  height: 100%;
+  padding-bottom: 1.25rem;
   background-color: #f7f7f7;
 }
 .aboutMe-title-section {
@@ -123,6 +123,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: -8.12rem;
 }
 .works-title-section {
   display: flex;
@@ -141,7 +142,7 @@
   grid-template-columns: repeat(3, 15.75rem);
   grid-template-rows: repeat(3, 13.25rem);
   justify-content: center;
-  margin: 1rem 0px;
+  margin: 4rem 0px;
 }
 .work-list-item {
   color: white;
@@ -152,11 +153,12 @@
   align-items: center;
 }
 .work-list-item:nth-child(even) {
-  background-image: url(../css/images/fotoA.jpg);
+  background-image: url(../css/images/fotoB.jpg);
   background-size: cover;
+  background-position: left;
 }
 .work-list-item:nth-child(odd) {
-  background-image: url(../css/images/fotoC.jpg);
+  background-image: url(../css/images/fotoD.jpg);
   background-size: cover;
 }
 .work-list-item-name {
@@ -436,8 +438,10 @@
 .cart-icon {
   width: 0.75rem;
 }
+
 /* MEDIA QUERIES */
-@media (max-width: 900px) {
+
+@media (max-width: 1200px) {
   .header-logo {
     width: 15rem;
     height: 8rem;
@@ -445,14 +449,24 @@
   .header-title {
     font-size: 3rem;
   }
+}
+@media (max-width: 900px) {
   .header-subtitle {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 15%;
+  }
+  .nav {
+    margin-right: 15%;
   }
   .nav-list {
     font-size: 1rem;
   }
-  .aboutMe {
-    height: 100vh;
+  .aboutMe-title {
+    font-size: 1.5rem;
+  }
+  .linea {
+    margin-top: 0;
   }
   .aboutMe-imgContainer {
     width: 300px;
@@ -461,9 +475,15 @@
   .aboutMe-textContainer {
     font-size: 0.75rem;
   }
+  .aboutMe-subtitle-section {
+    font-size: 1.12rem;
+  }
   .btn {
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
+  }
+  .works {
+    margin-bottom: 2.12rem;
   }
   .works-list {
     grid-template-columns: repeat(3, 13rem);
@@ -486,6 +506,11 @@
   }
 }
 @media (max-width: 678px) {
+  .aboutMe-content {
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
   .header-logo {
     width: 12rem;
     height: 6rem;
@@ -523,7 +548,7 @@
     font-size: 1.5rem;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 595px) {
   .header {
     width: 120vw;
     background-position: center;
