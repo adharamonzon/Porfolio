@@ -6,10 +6,14 @@
   scroll-behavior: smooth;
 }
 /* ESTILOS HEADER  */
+.homeIcon {
+  width: 30px;
+  margin: 20px;
+  transform: rotate(33deg);
+  cursor: pointer;
+}
 .header {
   height: 50vh;
-  background: rgb(79, 79, 82);
-  background: linear-gradient(90deg, rgba(79, 79, 82, 1) 0%, rgba(16, 18, 18, 1) 98%);
   background-image: url(./images/aboutMeHeader.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -17,6 +21,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header-container {
+  background: rgb(9, 9, 9);
+  background: radial-gradient(circle, rgba(9, 9, 9, 1) 0%, rgba(7, 7, 7, 1) 36%, rgba(0, 0, 0, 1) 44%, rgba(217, 217, 217, 1) 100%);
 }
 .header-title-section {
   display: flex;
@@ -51,7 +59,7 @@
 /* ESTILOS MAIN */
 .main-section {
   display: flex;
-  justify-content: space-evenly;
+  align-items: flex-start;
   margin: 1.25rem;
 }
 /* ESTILOS MAIN/EDUCACIÓN */
@@ -61,6 +69,7 @@
   justify-content: center;
   align-content: center;
   width: 50%;
+  margin-right: 30px;
 }
 .main-title {
   text-align: center;
@@ -72,6 +81,7 @@
 .education-list-item {
   display: flex;
   margin-bottom: 1rem;
+  margin-top: 1.35rem;
 }
 .education-list-item-timeline {
   margin-right: 0.93rem;
@@ -97,20 +107,31 @@
   display: flex;
   align-items: center;
 }
+.experience-item {
+  margin-top: 1.35rem;
+}
+.main-exp-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-left: 61px;
+}
 .main-skills {
   display: flex;
   flex-direction: column;
   align-content: center;
+  margin-top: 15px;
 }
 .skills-list {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: repeat(4, 100px);
   grid-column-gap: 1.25rem 3.75rem;
   grid-row-gap: 1.25rem;
   align-self: center;
   justify-items: center;
-  margin-top: 0.93rem;
+  margin-top: 1.35rem;
 }
 .skills-list-item-icon {
   color: #9bd189;
@@ -289,4 +310,7 @@
 .btn:hover {
   border: solid 0.12rem #83af74;
   color: #83af74;
+}
+.icon {
+  width: 75px;
 }
