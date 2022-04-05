@@ -143,6 +143,7 @@
   grid-template-rows: repeat(3, 13.25rem);
   justify-content: center;
   margin: 4rem 0px;
+  cursor: pointer;
 }
 .work-list-item {
   color: white;
@@ -153,13 +154,35 @@
   align-items: center;
 }
 .work-list-item:nth-child(even) {
-  background-image: url(../css/images/fotoB.jpg);
+  background-image: url(../css/images/fotoC.jpg);
   background-size: cover;
   background-position: left;
+  filter: grayscale(1);
+  transition: all 1s ease;
 }
 .work-list-item:nth-child(odd) {
   background-image: url(../css/images/fotoD.jpg);
   background-size: cover;
+  filter: grayscale(1);
+
+  transition: all 1s ease;
+}
+.work-list-item:hover {
+  transform: scale(1.01);
+  filter: grayscale(0);
+
+  text-decoration: none;
+}
+.work-list-item-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.work-list-item-link:hover {
+  color: white;
 }
 .work-list-item-name {
   font-size: 1.125rem;
@@ -169,7 +192,6 @@
 .work-list-item-subtitle {
   font-size: 0.87rem;
   font-weight: 600;
-  width: 85%;
   margin-bottom: 0.93rem;
   padding: 0.12rem;
   text-align: center;

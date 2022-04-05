@@ -1,4 +1,4 @@
-let works = [];
+/* let works = [];
 
 const getData = () => {
   return fetch('./data/data.json')
@@ -19,7 +19,6 @@ const paintWorks = () => {
     listCode += `<li id=${work.id} class="work-list-item">`;
     listCode += `<h4 class="work-list-item-name uppercase">${work.name}</h4>`;
     listCode += `<h6 class="work-list-item-subtitle">${work.subtitle}</h6>`;
-    listCode += `<button id=${work.id} class="work-list-item-btn js-workBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Pincha aquí</button>`;
     listCode += `</li>`;
   }
   list.innerHTML = listCode;
@@ -33,7 +32,8 @@ const showModal = () => {
     modalCard = '';
     const btnTriger = parseInt(ev.currentTarget.id);
     for (const work of works) {
-      console.log(works);
+      window.location.replace('./works/#laTiendina');
+      /* console.log(works);
       if (btnTriger === work.id) {
         modalCard += `<div class="modal-header" id=${work.id}>`;
         modalCard += `<h5 class="modal-title" id="exampleModalLabel">${work.name}</h5>`;
@@ -54,10 +54,10 @@ const showModal = () => {
         modalCard += `<a href=${work.codeUrl} target="_blank" class="btn-modal">Ir al código</a>`;
         modalCard += '</div>';
         modalCard += `</div>`;
-      }
-    }
+      } */
+/*     }
     modalWindow.innerHTML = modalCard;
   };
   modalTriger.forEach((item) => item.addEventListener('click', handelModal));
 };
-getData();
+getData(); */
