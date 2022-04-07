@@ -67,17 +67,29 @@
 .proyect-list {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 20px;
 }
 .proyect-list-item-icon {
   color: #9bd189;
   font-size: 4.06rem;
 }
-.works-btnContner {
+.works-proyectFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.works-proyectTitle{
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.works-btnContainer {
+  width: 300px;
   display: flex;
   justify-content: space-around;
-  width: 55%;
+  margin: 20px 0px;
 }
 /* ESTILOS GENÉRICOS */
 
@@ -102,5 +114,9 @@
   width: 100%;
 }
 .btn {
-  width: 40px;
+  width: 60px;
+}
+.icon{
+  color: #9bd189;
+  font-size: 60px;
 }
