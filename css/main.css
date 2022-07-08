@@ -52,6 +52,7 @@
   font-size: 1.25rem;
   padding: 0.31rem;
   cursor: pointer;
+  width: 55%;
 }
 .nav-item-item-link {
   text-decoration-line: none;
