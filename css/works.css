@@ -89,6 +89,9 @@
   display: flex;
   justify-content: space-evenly;
 }
+.githubLink:hover {
+  color: #9bd189;
+} 
 
 /* ESTILOS GENÉRICOS */
 
